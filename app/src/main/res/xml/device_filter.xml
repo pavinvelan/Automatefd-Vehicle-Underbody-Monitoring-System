@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This will match any USB camera device -->
+    <usb-device class="14" subclass="1" protocol="0" />
+    <usb-device class="14" subclass="2" protocol="0" />
+    
+    <!-- Common camera vendor IDs -->
+    <usb-device vendor-id="1133" /> <!-- Logitech -->
+    <usb-device vendor-id="1452" /> <!-- Apple -->
+    <usb-device vendor-id="1118" /> <!-- Microsoft -->
+    <usb-device vendor-id="1871" /> <!-- Aveo Technology -->
+    <usb-device vendor-id="3141" /> <!-- Sonix Technology -->
+    <usb-device vendor-id="1240" /> <!-- IMC Networks -->
+    <usb-device vendor-id="1266" /> <!-- Chicony Electronics -->
+    
+    <!-- Generic UVC devices -->
+    <usb-device class="239" subclass="2" protocol="1" />
+</resources>
